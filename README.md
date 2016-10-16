@@ -34,16 +34,13 @@
 6. Podemos hacer mas de una consulta en el mismo request
     ```javascript
     query {
-
       post(id:1) {
         id
         title
       }
-
       posts {
         id
         title
       }
-
     }
     ```
