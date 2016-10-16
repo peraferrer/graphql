@@ -3,11 +3,11 @@
 
 ####Como utilizarlo:
 Correr con: ```npm start```
-Ingresar a http://localhost:4000/graphql
+Ingresar a [http://localhost:4000/graphql](http://localhost:4000/graphql)
 
 > Consultar posts
 
-```
+```javascript
 query {
   post(id:1) {
     id
@@ -22,7 +22,7 @@ query {
 
 > Crear un post
 
-```
+```javascript
 mutation {
   createPost(post: {title:"Algo"}) {
     id
