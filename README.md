@@ -31,7 +31,7 @@
       }
     }
     ```
-3. Podemos hacer mas de una consulta en el mismo request
+6. Podemos hacer mas de una consulta en el mismo request
     ```javascript
     query {
 
