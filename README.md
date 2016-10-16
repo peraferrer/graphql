@@ -23,6 +23,14 @@ mutation {
 }
 ```
 - Consultar todos los posts
+```javascript
+query {
+  posts {
+    id
+    title
+  }
+}
+```
 - Podemos hacer mas de una consulta en el mismo request
 ```javascript
 query {
