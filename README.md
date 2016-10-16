@@ -11,8 +11,7 @@
         id
         title
       }
-    }
-    ```
+    }```
 4. Crear un post
     ```javascript
     mutation {
@@ -20,8 +19,7 @@
         id
         title
       }
-    }
-    ```
+    }```
 5. Consultar todos los posts
     ```javascript
     query {
@@ -29,8 +27,7 @@
         id
         title
       }
-    }
-    ```
+    }```
 6. Podemos hacer mas de una consulta en el mismo request
     ```javascript
     query {
@@ -42,5 +39,4 @@
         id
         title
       }
-    }
-    ```
+    }```
