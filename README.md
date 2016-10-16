@@ -2,11 +2,9 @@
 #####Nota: son las primeras pruebas que hacemos con GraphQL !!
 
 ####Como utilizarlo:
-Correr con: ```npm start```
-Ingresar a [http://localhost:4000/graphql](http://localhost:4000/graphql)
-
-> Consultar posts
-
+1. Correr con: ```npm start```
+2. Ingresar a [http://localhost:4000/graphql](http://localhost:4000/graphql)
+3. Consultar posts
 ```javascript
 query {
   post(id:1) {
@@ -19,9 +17,7 @@ query {
   }
 }
 ```
-
-> Crear un post
-
+4. Crear un post
 ```javascript
 mutation {
   createPost(post: {title:"Algo"}) {
